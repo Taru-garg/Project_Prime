@@ -16,6 +16,6 @@ int main()
 	printf("Enter an integer that you want to check for primality ");
 	scanf("%ld",&a);
 	//printf("%ld",a);  //checkpoint 1
-	basic(a);
+	basic(a); //basic condition for primality 6n-1,6n+1
 	return 0;
 }
