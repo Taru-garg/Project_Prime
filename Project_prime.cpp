@@ -9,13 +9,26 @@ with help of checkpoints.*/
 #include <pthread.h>
 #include <bits/stdc++.h>
 
-
+int basic(long long int num)
+{
+	if((num+1)%6 ==0 || (num+1)%6 ==0)
+	{
+		printf("This number may be a prime");
+		return 1;
+	}
+	else
+	{
+		printf("This number is definetly not a prime");
+		return 0;
+	}
+	
+}
 int main()
 {
 	long long int a;
 	printf("Enter an integer that you want to check for primality ");
 	scanf("%ld",&a);
 	//printf("%ld",a);  //checkpoint 1
-	basic(a);
+	int val_returned_main = basic(a);
 	return 0;
 }
