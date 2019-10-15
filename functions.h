@@ -9,7 +9,7 @@ int answer(int prediction)
 	}
 	else if (prediction == 1)
 	{
-		printf("Maybe or may not be a prime\n");
+		printf("Maybe a prime\n");
 		return(0);
 	}
 	else if (prediction == 2)
